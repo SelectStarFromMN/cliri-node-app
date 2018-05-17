@@ -1,0 +1,27 @@
+{
+  "name": "cliri-node-app",
+  "version": "1.0.0",
+  "description": "CommandLine Siri-like app",
+  "main": "keys.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SelectStarFromMN/cliri-node-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SelectStarFromMN/cliri-node-app/issues"
+  },
+  "homepage": "https://github.com/SelectStarFromMN/cliri-node-app#readme",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "node-spotify-api": "^1.0.7",
+    "omdb": "^0.8.0",
+    "request": "^2.85.0",
+    "twitter": "^1.7.1"
+  }
+}
