@@ -10,8 +10,8 @@ var Twitter = require('twitter');
 var spotify = new Spotify(keys.spotify);
 var client = new Twitter(keys.twitter);
 
-var command = process.argv[2];                      // The first "real" arg is the liri command
-var restArgs = process.argv.slice([3]).join(" ");   // The rest of the args get passed to the command
+var command = process.argv[2];                    // The first "real" arg is the liri command
+var restArgs = process.argv.slice(3).join(" ");   // The rest of the args get passed to the command
 
 // First log the command and args (pseudo STDIN capture)
 fs.appendFile("log.txt", `\n\n> node liri.js ${command} ${restArgs}\n\n`, function (err) {
