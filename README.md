@@ -16,6 +16,7 @@ Liri understand the following commands:
 examples:
 
 node liri.js spotify-this-song 'wish you were here'
+
 node liri.js spotify-this-song ride my llama neil young
 
     (note: quotes in all command-line arguments are optional)
